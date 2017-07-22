@@ -32,6 +32,8 @@ public class MainActivity extends Activity {
                 String username = String.valueOf(et_Username.getText());
                 String password = String.valueOf(et_Password.getText());
 
+                //compares username and password
+                
                 if (username.equals("admin") && password.equals("admin")) {
                     Toast.makeText(MainActivity.this, "Username and password is correct",
                             Toast.LENGTH_SHORT).show();
